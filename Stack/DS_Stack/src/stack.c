@@ -89,6 +89,7 @@ int stackPop(struct Stack* stack, int* data)
 
 		*data = stack->array[stack->count--];
 
+
 #ifdef DEBUG
 		printf("%d stack'ten silindi.\n",*data);
 #endif
