@@ -9,19 +9,24 @@
 #define DS_LINKEDLIST_INC_LINKEDLIST_H_
 
 
-struct Node
+typedef struct Node_t
 {
 	int data;
-	struct Node* next;
+	struct Node_t* next;
+}Node;
+
+struct LinkedList
+{
+	Node* head;
 };
 
-struct Node* LinkedListInit();
-
-void LinkedListAdd();
-void LinkedListRemove();
-void LinkedListRemoveAt();
-void LinkedListInsert();
-void LinkedListGetFrom();
-void LinkedListClear();
+struct LinkedList* LinkedListInit();
+int LinkedListAdd(struct LinkedList* linkedList, const int data);
+int LinkedListInsert(struct LinkedList* linkedList, const int data, unsigned int index);
+int LinkedListRemove(struct LinkedList* linkedList, const int data);
+int LinkedListRemoveAt(struct LinkedList* linkedList, unsigned int index);
+int LinkedListGetFrom(struct LinkedList* linkedList, unsigned int index, int* data);
+void LinkedListClear(struct LinkedList* linkedList);
+void LinkedListDisplay(const struct LinkedList* linkedList);
 
 #endif /* DS_LINKEDLIST_INC_LINKEDLIST_H_ */
