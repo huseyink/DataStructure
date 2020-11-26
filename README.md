@@ -4,4 +4,12 @@ LinkedList, Stack, Queue gibi veri yapıları ile ilgili örnekleri kaydetmek am
 # Yapılan örnekler Eclipse C/C++ 2020 ortamında derlenmiştir.
 
 # Yapılacaklar
-LinkedList yapısı ile ilgili örnek yapildiktan sonra Stack ve Queue yapıları LinkedList ile yapılacaktır. 
+*LinkedList yapısında bazı fonksiyonlar eklenecektir.
+*Tüm veri yapıları icin genel revizyon yapılacaktır.
+*Stack ve Queue yapısı LinkedList kullanılarak tekrar düzenlenecektir.
+*Doubly LinkedList yapısı olusturulacaktır.
+
+#Yapıldı
+*Stack ile ilgili calismalar tamamlandi.
+*Queue ile ilgili calismalar tamamlandi.
+*LinkedList ile ilgili calismalar tamamlandi.
